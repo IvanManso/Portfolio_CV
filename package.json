@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-cv",
+  "version": "0.0.1",
+  "description": "A portfolio/cv web page with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanManso/Portfolio_CV.git"
+  },
+  "author": "Iván Manso Arenal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanManso/Portfolio_CV/issues"
+  },
+  "homepage": "https://github.com/IvanManso/Portfolio_CV#readme"
+}
