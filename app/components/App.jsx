@@ -1,19 +1,13 @@
-// ES5
-// var React = require('react');
-
-// var App = React.createClass({
-//     render: function() {
-//         return <h1>Setup Ready</h1>;
-//     }
-//   });
-
 import React from 'react';
+import Header from './header/Header.jsx';
+import Content from './content/Content.jsx';
 
 export default class App extends React.Component {
     render() {
         return (
-            <div style={{textAlign: 'center'}}>
-                <h1>Setup Ready</h1>
+            <div>
+                <Header />
+                <Content />
             </div>
         );
     }
