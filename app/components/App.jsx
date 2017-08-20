@@ -9,8 +9,12 @@
 
 import React from 'react';
 
-export class App extends React.Component {
+export default class App extends React.Component {
     render() {
-        return <h1>Setup Ready</h1>;
+        return (
+            <div style={{textAlign: 'center'}}>
+                <h1>Setup Ready</h1>
+            </div>
+        );
     }
 }
